@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+/* Général */
+body *{
+   font-family: 'Syne', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   align-items: center !important;
+}
+
+img.custom-logo{
+    max-height: 20px !important;
+}
+
+h1{
+    font-family: 'Syne', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 38px;
+}
+
+h2{
+    font-family: 'Syne', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Syne', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 30px;
+}
+
+h4{
+    font-family: 'Syne', sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 40px;
+}
+
+h5{
+    font-family: 'Syne', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 20px; 
+}
+
+/* Header */
+
+#menu-item-508 a, #menu-item-507 a, #menu-item-18 a,#menu-item-512 a, #menu-item-520 a{
+    color: black !important;
+    font-family: Syne !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 19px !important;
+}
+#menu-item-508 a:hover, #menu-item-507 a:hover, #menu-item-18 a:hover,#menu-item-512 a:hover, #menu-item-520 a:hover{
+    color: black !important;
+    font-family: Syne !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+}
+
+ul {
+    list-style: none !important;
+  }
+
+#menu-item-506 a, #menu-item-16 a{
+    color: white !important;
+}
+
+
+div.header-inner.section-inner{
+    background-color: white;
+    padding: 0 0;
+    width: auto;
+    padding-left:30px;
+}
+
+li.menu-item a{
+    display: inline-block;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#menu-item-16{
+    color: white !important;
+}
+
+.header-command, #menu-item-506{
+    background-color: #DC9F96;
+}
+
+/*Formulaires*/
+form.wpcf7-form.init{
+    color: white;
+    text-align: center;
+}
+input.wpcf7-form-control.wpcf7-submit.has-spinner{
+    background-color: #DC9F96;
+    color: white !important;
+    font-size: 15px;
+    width: 198px;
+    height: 55px;
+}
+
+input.wpcf7-form-control.wpcf7-submit.has-spinner:hover{
+    background-color: #C02E44;
+    text-decoration: none;
+}
+
+input.wpcf7-form-control{
+    border-radius:10px;
+    border: none;
+}
+
+.wpcf7-spinner{
+    display: block;
+    visibility: hidden;
+}
+
+/*Formulaire Contact*/
+.contact-form{
+    text-align: justify;
+    color: black;
+}
+
+textarea{
+    border-radius:15px;
+    border: none;    
+}
+
+/*Formulaire Commande*/
+
+.fruits-commande input[type="radio"]{
+	display: none;
+}
+.fruits-commande .wpcf7-list-item-label{
+	cursor: pointer;
+	border-radius:15px;
+	padding: 100px 40px 40px 40px;
+	height: 100px !important;
+    background-color: #DC9F96;
+	display: block;
+}
+.fruits-commande input[type="radio"]:checked + span.wpcf7-list-item-label, .fruits-commande .wpcf7-list-item-label:hover{
+	background-color: #E0B9B4;
+}
+
+.two-columns-form{
+    display: flex;
+}
+
+.infos, .livraison{
+    padding: 50px;
+    text-align: left;
+}
+
+.separateur{
+    height: 320px;
+    border: 1px solid white;
+    border-radius:15px;
+    margin-top: 117px;
+}
+
+#ok-button{
+    width: 100px;
+    height: 63px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.pl-button{
+   margin: -12px;
+}
+
+.ml-button{
+    margin:-12px;
+}
+
+/*Formulaire haut*/
+
+.form-ok {
+    display: flex;
+    width: 192px;
+}
+
+.product-count {
+    display: flex;
+    margin:0;
+}
+
+.count-textbox {
+    width: 50px;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quantite {
+    background-color:white;
+    width: 70px;
+    height: 63px;
+    text-align: center;
+    border-radius: 5px 0 0 5px !important;
+    border-style: none !important;
+}
+
+.boutons{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: -5px;
+    text-decoration: none;
+}
+
+.minus-button{
+    border-top-right-radius: 5px;
+    margin-top: 5px;
+    height: 27px;
+}
+
+.plus-button {
+    border-bottom-right-radius: 5px;
+    border-top: solid white 1px;
+    height: 27px;
+}
+
+.minus-button, .plus-button {
+    width: 36px;
+    height: 28px;
+    background-color: #dc9f96;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+.minus-button:hover{
+    background-color: #C02E44;
+    text-decoration: none;
+}
+
+.plus-button:hover{
+    background-color: #C02E44;   
+    text-decoration: none;
+}
+
+/*footer*/
+#site-footer{
+    padding: 10px;
+    text-align: center;
+    background-color: white !important;
+ }
+
+ .post-content p{
+    margin-bottom: 0;
+}
+
+.footer-top-visible .footer-nav-widgets-wrapper,
+.footer-top-hidden #site-footer{
+	margin-top: 0rem;
+}
+
+
+/*Responsive*/
+
+@media screen and (min-width: 1029px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1028px) {
+    h1{
+        font-size: 30px !important;
+    }
+
+    header#site-header.header-footer-group{
+        background-color: white;
+        height: 100%;
+    }
+    h4{
+        font-size: 20px !important;
+    }
+    #ok-button{
+        width: 80px;
+
+    }
+
+@media screen and (max-width: 767px) {
+    h1{
+        font-size: 25px !important;
+    }
+    h3{
+        font-size: 15px !important;
+    }
+    .infos, .livraison{
+        font-size: 12px !important;
+    }
+
+    .quantite {
+        height: 62px;
+    }
+    }
