@@ -283,6 +283,15 @@ textarea{
         width: 80px;
 
     }
+    div.header-inner.section-inner{
+        background-color: white;
+        padding: 0 0;
+        width: auto;
+        padding-left:30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    }
 
 @media screen and (max-width: 767px) {
     h1{
@@ -297,5 +306,13 @@ textarea{
 
     .quantite {
         height: 62px;
+    }
+    div.header-inner.section-inner{
+        background-color: white;
+        padding: 0 0;
+        width: auto;
+        padding-left:30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     }
